@@ -1,0 +1,382 @@
+﻿carne,cohorte,num_cursos_trans_matriculados,cursos_pendientes,es_activo,cat_transicion,apto_transicion,grupo_analisis,requiere_levantamiento
+C25757,Otro,0,4,1,Otro,0,Otro,0
+C4C147,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4C203,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4D009,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4D030,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4D328,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4E397,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4F543,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4F681,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4F772,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4G318,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4G536,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4G831,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4H223,C4,1,3,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4H392,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4I394,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4I412,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4J445,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4J724,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4K289,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4K826,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4L347,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4L690,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4L748,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+860190,Otro,0,4,1,Otro,0,Otro,0
+A04122,Otro,0,4,1,Otro,0,Otro,0
+A32130,Otro,0,4,1,Otro,0,Otro,0
+A77234,Otro,0,4,1,Otro,0,Otro,0
+B00417,Otro,0,4,1,Otro,0,Otro,0
+B10399,Otro,0,4,1,Otro,0,Otro,0
+B10741,Otro,0,4,1,Otro,0,Otro,0
+B67997,Otro,0,4,1,Otro,0,Otro,0
+C08940,Otro,0,4,1,Otro,0,Otro,0
+C12625,Otro,2,2,1,Otro,0,Otro,0
+C13985,Otro,0,4,1,Otro,0,Otro,0
+C20536,Otro,0,4,1,Otro,0,Otro,0
+C29417,Otro,0,4,1,Otro,0,Otro,0
+C31047,Otro,0,4,1,Otro,0,Otro,0
+C35204,Otro,0,4,1,Otro,0,Otro,0
+C4C152,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4C552,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4D394,C4,2,2,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4E545,C4,1,3,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4F037,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4F900,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4G973,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4H520,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4I473,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4I583,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4J067,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4J350,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4J774,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4J932,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4K158,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4K621,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4L358,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4L622,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4L953,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4L985,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+B40351,Otro,0,4,1,Otro,0,Otro,0
+B47516,Otro,0,4,1,Otro,0,Otro,0
+B66327,Otro,0,4,1,Otro,0,Otro,0
+B80944,Otro,0,4,1,Otro,0,Otro,0
+B81252,Otro,0,4,1,Otro,0,Otro,0
+B90616,Otro,0,4,1,Otro,0,Otro,0
+B91527,Otro,0,4,1,Otro,0,Otro,0
+B93802,Otro,0,4,1,Otro,0,Otro,0
+B96333,Otro,0,4,1,Otro,0,Otro,0
+B97117,Otro,0,4,1,Otro,0,Otro,0
+B98566,Otro,0,4,1,Otro,0,Otro,0
+B99108,Otro,0,4,1,Otro,0,Otro,0
+C4A062,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+B03705,Otro,0,4,1,Otro,0,Otro,0
+B73161,Otro,0,4,1,Otro,0,Otro,0
+B73756,Otro,0,4,1,Otro,0,Otro,0
+B84791,Otro,0,4,1,Otro,0,Otro,0
+B85136,Otro,0,4,1,Otro,0,Otro,0
+B86387,Otro,0,4,1,Otro,0,Otro,0
+B87013,Otro,0,4,1,Otro,0,Otro,0
+B87487,Otro,0,4,1,Otro,0,Otro,0
+B88555,Otro,0,4,1,Otro,0,Otro,0
+B90461,Otro,0,4,1,Otro,0,Otro,0
+B92497,Otro,0,4,1,Otro,0,Otro,0
+B94301,Otro,0,4,1,Otro,0,Otro,0
+B95999,Otro,0,4,1,Otro,0,Otro,0
+B96512,Otro,0,4,1,Otro,0,Otro,0
+B97647,Otro,0,4,1,Otro,0,Otro,0
+B98181,Otro,0,4,1,Otro,0,Otro,0
+B98569,Otro,0,4,1,Otro,0,Otro,0
+B99142,Otro,0,4,1,Otro,0,Otro,0
+C04366,Otro,0,4,1,Otro,0,Otro,0
+C32979,Otro,0,4,1,Otro,0,Otro,0
+C37359,Otro,0,4,1,Otro,0,Otro,0
+C5C532,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5D283,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5D826,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5D945,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5E248,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5E302,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5E602,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5E657,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5E712,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5E755,C5,3,1,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5F045,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5G563,C5,1,3,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5H047,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5H085,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5H165,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5H178,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5H560,C5,1,3,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5H986,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5I166,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5I278,C5,1,3,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5I330,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5I587,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5I819,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5J545,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5J627,C5,1,3,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5K222,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5K434,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5K561,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5K849,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+B16018,Otro,0,4,1,Otro,0,Otro,0
+B65149,Otro,0,4,1,Otro,0,Otro,0
+B66949,Otro,0,4,1,Otro,0,Otro,0
+B81252,Otro,0,4,1,Otro,0,Otro,0
+C07419,Otro,0,4,1,Otro,0,Otro,0
+C14967,Otro,0,4,1,Otro,0,Otro,0
+C15173,Otro,0,4,1,Otro,0,Otro,0
+C15345,Otro,0,4,1,Otro,0,Otro,0
+C16433,Otro,0,4,1,Otro,0,Otro,0
+C17528,Otro,0,4,1,Otro,0,Otro,0
+C25502,Otro,0,4,1,Otro,0,Otro,0
+C26811,Otro,0,4,1,Otro,0,Otro,0
+C4G291,C4,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5C038,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5C176,C5,1,3,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5C825,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5D135,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5D179,C5,1,3,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5E285,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5E393,C5,1,3,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5E619,C5,1,3,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5E958,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5F258,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5F419,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5F661,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5G041,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5G333,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5G388,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5G956,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5H341,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5H447,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5H549,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5H815,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5I151,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5I661,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5J007,C5,1,3,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5J050,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5J437,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5J506,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5K050,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5K125,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5K698,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5L157,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5L341,C5,1,3,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5L454,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5L771,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5M003,C5,1,3,1,Escenario 3,0,C4C5-Con-Cursos,1
+892248,Otro,0,4,1,Otro,0,Otro,0
+A94287,Otro,0,4,1,Otro,0,Otro,0
+B75767,Otro,0,4,1,Otro,0,Otro,0
+B76042,Otro,0,4,1,Otro,0,Otro,0
+B91572,Otro,0,4,1,Otro,0,Otro,0
+B92124,Otro,0,4,1,Otro,0,Otro,0
+B94070,Otro,0,4,1,Otro,0,Otro,0
+C03584,Otro,0,4,1,Otro,0,Otro,0
+C08330,Otro,0,4,1,Otro,0,Otro,0
+C09295,Otro,0,4,1,Otro,0,Otro,0
+C09301,Otro,0,4,1,Otro,0,Otro,0
+C15958,Otro,0,4,1,Otro,0,Otro,0
+C17528,Otro,0,4,1,Otro,0,Otro,0
+B10544,Otro,0,4,1,Otro,0,Otro,0
+B47601,Otro,0,4,1,Otro,0,Otro,0
+B50021,Otro,0,4,1,Otro,0,Otro,0
+B64506,Otro,0,4,1,Otro,0,Otro,0
+B72471,Otro,0,4,1,Otro,0,Otro,0
+B92544,Otro,0,4,1,Otro,0,Otro,0
+B94184,Otro,0,4,1,Otro,0,Otro,0
+B96231,Otro,0,4,1,Otro,0,Otro,0
+B97233,Otro,0,4,1,Otro,0,Otro,0
+C02562,Otro,0,4,1,Otro,0,Otro,0
+C07740,Otro,0,4,1,Otro,0,Otro,0
+C10879,Otro,0,4,1,Otro,0,Otro,0
+C12073,Otro,0,4,1,Otro,0,Otro,0
+C12698,Otro,0,4,1,Otro,0,Otro,0
+C13010,Otro,0,4,1,Otro,0,Otro,0
+C15246,Otro,0,4,1,Otro,0,Otro,0
+C08767,Otro,2,2,1,Otro,0,Otro,0
+C22068,Otro,2,2,1,Otro,0,Otro,0
+C30402,Otro,2,2,1,Otro,0,Otro,0
+C4D864,C4,2,2,1,Escenario 3,0,C4C5-Con-Cursos,1
+C4E907,C4,3,1,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5F592,C5,2,2,1,Escenario 3,0,C4C5-Con-Cursos,1
+C6C383,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6C398,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6C572,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6C602,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6C632,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6C780,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6D001,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6D002,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6D020,C6,3,1,1,Escenario 1,1,C6-Completo,0
+C6D029,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6D050,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6D205,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6D381,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6D557,C6,3,1,1,Escenario 1,1,C6-Completo,0
+C6D957,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6E060,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6E299,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6E364,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6E417,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6E437,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6E471,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6E568,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6E976,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6F234,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6F266,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6F320,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6F451,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6F601,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6F760,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6F788,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6F817,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6F888,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6H138,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6H743,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6H951,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6H969,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6H980,C6,1,3,1,Escenario 2,0,C6-Parcial,1
+C6J103,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6J125,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6J152,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6J208,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6J314,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6J560,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6J982,C6,1,3,1,Escenario 2,0,C6-Parcial,1
+C6K289,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6K595,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6M001,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6M224,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6M460,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6M652,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6M997,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6N324,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6N379,C6,3,1,1,Escenario 1,1,C6-Completo,0
+C6N489,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6N583,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6N715,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6P349,C6,1,3,1,Escenario 2,0,C6-Parcial,1
+C6P422,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6P668,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6P851,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6Q044,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6Q109,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6Q114,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+B40351,Otro,0,4,1,Otro,0,Otro,0
+C21519,Otro,0,4,1,Otro,0,Otro,0
+C25739,Otro,0,4,1,Otro,0,Otro,0
+C28071,Otro,0,4,1,Otro,0,Otro,0
+C38995,Otro,0,4,1,Otro,0,Otro,0
+C5K007,C5,0,4,1,Escenario 3,0,C4C5-Con-Cursos,1
+C5L422,C5,3,1,1,Escenario 3,0,C4C5-Con-Cursos,1
+C6C636,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6C919,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6C983,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6D011,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6D227,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6D274,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6D349,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6D382,C6,1,3,1,Escenario 2,0,C6-Parcial,1
+C6D393,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6D542,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6D580,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6D589,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6D620,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6D668,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6D737,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6D765,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6E103,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6E237,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6E256,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6E293,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6E393,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6E463,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6E819,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6F012,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6F199,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6F307,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6F747,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6F794,C6,1,3,1,Escenario 2,0,C6-Parcial,1
+C6H012,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6H451,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6H572,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6J024,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6J207,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6J258,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6J307,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6J404,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6J455,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6J476,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6J789,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6J946,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6K487,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6K567,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6K627,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6K746,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6K868,C6,3,1,1,Escenario 1,1,C6-Completo,0
+C6M067,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6M602,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6M674,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6M849,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6N322,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6N464,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6N800,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6N822,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6P028,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6P143,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6P230,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6P395,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6P710,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6P766,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6P869,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+C6P951,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6Q006,C6,2,2,1,Escenario 2,0,C6-Parcial,1
+C6Q053,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+A96475,Otro,0,4,1,Otro,0,Otro,0
+B35696,Otro,0,4,1,Otro,0,Otro,0
+B61584,Otro,0,4,1,Otro,0,Otro,0
+B63462,Otro,0,4,1,Otro,0,Otro,0
+B73065,Otro,0,4,1,Otro,0,Otro,0
+B82308,Otro,0,4,1,Otro,0,Otro,0
+B82826,Otro,0,4,1,Otro,0,Otro,0
+B83983,Otro,0,4,1,Otro,0,Otro,0
+B90434,Otro,0,4,1,Otro,0,Otro,0
+B96836,Otro,0,4,1,Otro,0,Otro,0
+C01472,Otro,0,4,1,Otro,0,Otro,0
+C03525,Otro,0,4,1,Otro,0,Otro,0
+C10871,Otro,0,4,1,Otro,0,Otro,0
+C11211,Otro,0,4,1,Otro,0,Otro,0
+C11278,Otro,0,4,1,Otro,0,Otro,0
+C11586,Otro,0,4,1,Otro,0,Otro,0
+C15021,Otro,0,4,1,Otro,0,Otro,0
+C15345,Otro,0,4,1,Otro,0,Otro,0
+C17558,Otro,0,4,1,Otro,0,Otro,0
+C18497,Otro,0,4,1,Otro,0,Otro,0
+C18846,Otro,0,4,1,Otro,0,Otro,0
+C18904,Otro,0,4,1,Otro,0,Otro,0
+C20536,Otro,0,4,1,Otro,0,Otro,0
+C20575,Otro,0,4,1,Otro,0,Otro,0
+C25502,Otro,0,4,1,Otro,0,Otro,0
+C25739,Otro,0,4,1,Otro,0,Otro,0
+C26811,Otro,0,4,1,Otro,0,Otro,0
+C27765,Otro,0,4,1,Otro,0,Otro,0
+C6A139,C6,0,4,1,Escenario 2,0,C6-Parcial,1
+A76066,Otro,0,4,1,Otro,0,Otro,0
+B47030,Otro,0,4,1,Otro,0,Otro,0
+B56653,Otro,0,4,1,Otro,0,Otro,0
+B72280,Otro,0,4,1,Otro,0,Otro,0
+B75838,Otro,0,4,1,Otro,0,Otro,0
+B81824,Otro,0,4,1,Otro,0,Otro,0
+B91250,Otro,0,4,1,Otro,0,Otro,0
+B95225,Otro,0,4,1,Otro,0,Otro,0
+C10550,Otro,0,4,1,Otro,0,Otro,0
+C10821,Otro,0,4,1,Otro,0,Otro,0
+C14630,Otro,0,4,1,Otro,0,Otro,0
+C17837,Otro,0,4,1,Otro,0,Otro,0
+C19038,Otro,0,4,1,Otro,0,Otro,0
+C23057,Otro,0,4,1,Otro,0,Otro,0
+C23214,Otro,0,4,1,Otro,0,Otro,0

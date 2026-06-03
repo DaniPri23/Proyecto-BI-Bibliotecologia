@@ -1,0 +1,13 @@
+﻿#,Transformación,Descripción,Campo_origen,Campo_destino,Tipo
+1,Clasificación de Transición,"Asigna Escenario 1-4 según cohorte, cursos matriculados y estado",cohorte + cursos_matriculados + es_activo,cat_transicion (DIM_ESTADO_TRANSICION),Derivada (regla de negocio)
+2,Cálculo de Cursos Pendientes,4 - número de cursos de transición matriculados,sigla (LISTAS CLASE) vs CURSOS_TRANSICION,cursos_pendientes (FACT),Calculada
+3,Clasificación Activo/Inactivo,"Binario: 1=Activo, 0=Inactivo según desc_estado_estudiante",desc_estado_estudiante / estado_ciclo_seleccionado,"activo_matriculado (FACT), es_inactivo (DIM_ESTADO)",Derivada
+4,Derivación de Cohorte,C4/C5/C6/Otro según prefijo del carné,carne,cohorte (DIM_ESTUDIANTE),Derivada (regla de negocio)
+5,Homologación de Campos,"Normalización de nombres de campos entre fuentes (carne/carné, sexo/desc_genero, etc.)",Múltiples campos con nombres distintos entre archivos,Campos unificados en todo el pipeline,Limpieza/Normalización
+6,Marcado de Cursos de Transición,"Flag es_curso_transicion=1 para BI1001, BI1002, BI2006, BI1006",sigla (Planes de estudio PDF),es_curso_transicion (DIM_CURSO),Derivada
+7,Aptitud para Nuevo Plan 2027,apto_transicion=1 si Escenario 1 y activo,cat_transicion + es_activo,"apto_transicion (FACT), apto_nuevo_plan (DIM_ESTADO)",Derivada (regla de negocio)
+8,Generación de DIM_TIEMPO,Construcción artificial de períodos académicos (YYYYCC),ano_ingreso_carrera + periodo_ingreso_carrera,"sk_tiempo, periodo_academico (DIM_TIEMPO)",Generada en ETL
+9,Derivación de Énfasis de Carrera,BE o CI según código de carrera,"codigo_carrera (320401=CI, 320402=BE, etc.)",enfasis (DIM_CARRERA),Derivada
+10,Grupo de Análisis,"Agrupación analítica: C6-Completo, C6-Parcial, C4C5-Con-Cursos, C4C5-Inactivo",cat_transicion,grupo_analisis (DIM_ESTADO_TRANSICION),Derivada
+11,Eliminación de Datos Sensibles,"Teléfonos, correo personal y campos compute eliminados del DW","telefono_casa, telefono_oficina, direccion_electronica, compute_*",N/A (eliminados),Protección de datos
+12,Normalización de Valores de Sexo,"Unificar valores: Femenino→FEMENINO, F→FEMENINO, etc.",sexo / desc_genero,sexo (DIM_ESTUDIANTE),Limpieza/Normalización

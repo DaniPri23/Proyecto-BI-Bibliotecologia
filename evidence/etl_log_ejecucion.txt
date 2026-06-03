@@ -1,0 +1,140 @@
+[2026-06-03 15:20:32] ======================================================================
+[2026-06-03 15:20:32] ETL TRANSICIÓN CURRICULAR EBCI-UCR
+[2026-06-03 15:20:32] Inicio: 2026-06-03 15:20:32
+[2026-06-03 15:20:32] ======================================================================
+[2026-06-03 15:20:32] ======================================================================
+[2026-06-03 15:20:32] FASE 1: EXTRACCIÓN DE DATOS
+[2026-06-03 15:20:32] ======================================================================
+[2026-06-03 15:20:32] Extrayendo: Lista de Estudiantes Activos...
+[2026-06-03 15:20:32]   → 665 registros extraídos
+[2026-06-03 15:20:32] Extrayendo: Lista de Estudiantes Inactivos...
+[2026-06-03 15:20:33]   → 2227 registros extraídos
+[2026-06-03 15:20:33] Extrayendo: Primer Ingreso 2024...
+[2026-06-03 15:20:33]   → 91 registros extraídos
+[2026-06-03 15:20:33] Extrayendo: Primer Ingreso 2025...
+[2026-06-03 15:20:33]   → 107 registros extraídos
+[2026-06-03 15:20:33] Extrayendo: Primer Ingreso 2026...
+[2026-06-03 15:20:33]   → 183 registros extraídos
+[2026-06-03 15:20:33] Extrayendo: Listas de Clase I-2026 (ODS)...
+[2026-06-03 15:20:33]   → 184 registros extraídos
+[2026-06-03 15:20:33]     Cursos: {'BI1001': 82, 'BI1002': 81, 'BI2006': 21}
+[2026-06-03 15:20:33] Extrayendo: Población I-2026 BE...
+[2026-06-03 15:20:33]   → 162 registros extraídos
+[2026-06-03 15:20:33] Extrayendo: Población I-2026 CI...
+[2026-06-03 15:20:33]   → 129 registros extraídos
+[2026-06-03 15:20:33] 
+Extracción completada. Total de fuentes: 8
+[2026-06-03 15:20:33] ======================================================================
+[2026-06-03 15:20:33] FASE 2: TRANSFORMACIÓN DE DATOS
+[2026-06-03 15:20:33] ======================================================================
+[2026-06-03 15:20:33] 
+--- T5: Aplicando Reglas de Homologación ---
+[2026-06-03 15:20:33]   Homologación: 'direccion_electronica_inst' → 'correo_institucional' en activos
+[2026-06-03 15:20:33]   Homologación: 'direccion_electronica_inst' → 'correo_institucional' en inactivos
+[2026-06-03 15:20:33]   Homologación: 'direccion_electronica_inst' → 'correo_institucional' en pi_2024
+[2026-06-03 15:20:33]   Homologación: 'direccion_electronica_inst' → 'correo_institucional' en pi_2025
+[2026-06-03 15:20:33]   Homologación: 'direccion_electronica_inst' → 'correo_institucional' en pi_2026
+[2026-06-03 15:20:33]   Homologación: 'direccion_electronica_inst' → 'correo_institucional' en listas_clase
+[2026-06-03 15:20:33]   Homologación: 'desc_genero' → 'sexo' en activos
+[2026-06-03 15:20:33]   Homologación: 'desc_genero' → 'sexo' en inactivos
+[2026-06-03 15:20:33]   Eliminadas columnas sensibles: teléfonos, correo personal, campos compute
+[2026-06-03 15:20:33]   Reglas de homologación aplicadas exitosamente.
+[2026-06-03 15:20:33] 
+--- T4: Derivación de Cohorte ---
+[2026-06-03 15:20:33]   Distribución de cohortes (activos+inactivos):
+[2026-06-03 15:20:33]     Otro: 2481 estudiantes
+[2026-06-03 15:20:33]     C6: 127 estudiantes
+[2026-06-03 15:20:33]     C5: 66 estudiantes
+[2026-06-03 15:20:33]     C4: 63 estudiantes
+[2026-06-03 15:20:33] 
+--- T3: Clasificación Activo/Inactivo ---
+[2026-06-03 15:20:33]   Activos: 665 | Inactivos: 2227
+[2026-06-03 15:20:33]   Población BE: 136 activos, 26 inactivos
+[2026-06-03 15:20:33]     (de los inactivos: 20 no han consolidado ingreso a UCR)
+[2026-06-03 15:20:33]   Población CI: 100 activos, 29 inactivos
+[2026-06-03 15:20:33]     (de los inactivos: 27 no han consolidado ingreso a UCR)
+[2026-06-03 15:20:33] 
+--- T2: Cálculo de Cursos Pendientes ---
+[2026-06-03 15:20:33]   Matrículas efectivas en I-2026: 180 (de 184 totales)
+[2026-06-03 15:20:33]     Excluidos: 1 Retiro de Matrícula + 3 Interrupción de Estudios = 4 registros
+[2026-06-03 15:20:33]   Distribución de cursos pendientes (primer ingreso 2024-2026):
+[2026-06-03 15:20:33]     1 cursos pendientes: 7 estudiantes
+[2026-06-03 15:20:33]     2 cursos pendientes: 69 estudiantes
+[2026-06-03 15:20:33]     3 cursos pendientes: 18 estudiantes
+[2026-06-03 15:20:33]     4 cursos pendientes: 287 estudiantes
+[2026-06-03 15:20:33] 
+--- T1: Clasificación de Transición (Escenarios 1-4) ---
+[2026-06-03 15:20:33]   Estudiantes que requieren levantamiento de requisitos: 236
+[2026-06-03 15:20:33] 
+--- Limitaciones documentadas ---
+[2026-06-03 15:20:33]   LIMITACIÓN 1: Escenario 3 usa 'matriculados' como proxy de 'aprobados'
+[2026-06-03 15:20:33]     → No se dispone de actas de aprobación (fuente mencionada en doc transición)
+[2026-06-03 15:20:33]   LIMITACIÓN 2: Datos de matrícula solo para I-2026 (no hay ciclos anteriores)
+[2026-06-03 15:20:33]   LIMITACIÓN 3: LM-1030 es opcional y no se incluye en cursos pendientes
+[2026-06-03 15:20:33] 
+  Distribución por escenario de transición:
+[2026-06-03 15:20:33]     Otro: 141 estudiantes
+[2026-06-03 15:20:33]     Escenario 2: 123 estudiantes
+[2026-06-03 15:20:33]     Escenario 3: 113 estudiantes
+[2026-06-03 15:20:33]     Escenario 1: 4 estudiantes
+[2026-06-03 15:20:33]   Aptos para transición 2027: 4
+[2026-06-03 15:20:33] 
+--- Construyendo Dimensiones ---
+[2026-06-03 15:20:33]   Construyendo DIM_ESTUDIANTE...
+[2026-06-03 15:20:33]   DIM_ESTUDIANTE: 2737 registros únicos
+[2026-06-03 15:20:33]   Construyendo DIM_CURSO...
+[2026-06-03 15:20:33]   DIM_CURSO: 69 registros
+[2026-06-03 15:20:33]     Cursos de transición: 16
+[2026-06-03 15:20:33]   Construyendo DIM_TIEMPO...
+[2026-06-03 15:20:33]   DIM_TIEMPO: 7 períodos
+[2026-06-03 15:20:33]   Construyendo DIM_CARRERA...
+[2026-06-03 15:20:33]   DIM_CARRERA: 4 registros
+[2026-06-03 15:20:33]   Construyendo DIM_RECINTO...
+[2026-06-03 15:20:33]   DIM_RECINTO: 1 registros
+[2026-06-03 15:20:33]   Construyendo DIM_ESTADO_TRANSICION...
+[2026-06-03 15:20:33]   DIM_ESTADO_TRANSICION: 40 registros
+[2026-06-03 15:20:33] 
+--- Construyendo FACT_MATRICULA_ACADEMICA ---
+[2026-06-03 15:20:36]   FACT_MATRICULA_ACADEMICA: 1524 registros generados
+[2026-06-03 15:20:36]     Activos matriculados (1): 177
+[2026-06-03 15:20:36]     Aptos transición (1): 16
+[2026-06-03 15:20:36] ======================================================================
+[2026-06-03 15:20:36] FASE 3: CARGA AL DATA WAREHOUSE
+[2026-06-03 15:20:36] ======================================================================
+[2026-06-03 15:20:36]   Ejecutando DDL desde C:\Users\danny\OneDrive\Escritorio\bibliotecnologia\01_ddl_modelo_dimensional.sql...
+[2026-06-03 15:20:36]   DIM_ESTUDIANTE cargada: 2737 registros
+[2026-06-03 15:20:36]   DIM_CURSO cargada: 69 registros
+[2026-06-03 15:20:36]   DIM_TIEMPO cargada: 7 registros
+[2026-06-03 15:20:36]   DIM_CARRERA cargada: 4 registros
+[2026-06-03 15:20:36]   DIM_RECINTO cargada: 1 registros
+[2026-06-03 15:20:36]   DIM_ESTADO_TRANSICION cargada: 40 registros
+[2026-06-03 15:20:36]   FACT_MATRICULA_ACADEMICA cargada: 1524 registros
+[2026-06-03 15:20:36] 
+--- Verificación Post-Carga ---
+[2026-06-03 15:20:36]   DIM_ESTUDIANTE: 2737 registros verificados
+[2026-06-03 15:20:36]   DIM_CURSO: 69 registros verificados
+[2026-06-03 15:20:36]   DIM_TIEMPO: 7 registros verificados
+[2026-06-03 15:20:36]   DIM_CARRERA: 4 registros verificados
+[2026-06-03 15:20:36]   DIM_RECINTO: 1 registros verificados
+[2026-06-03 15:20:36]   DIM_ESTADO_TRANSICION: 40 registros verificados
+[2026-06-03 15:20:36]   FACT_MATRICULA_ACADEMICA: 1524 registros verificados
+[2026-06-03 15:20:36] 
+--- Consultas de Verificación de Negocio ---
+[2026-06-03 15:20:36]   Estudiantes cohorte C4: 63
+[2026-06-03 15:20:36]   Estudiantes cohorte C5: 66
+[2026-06-03 15:20:36]   Estudiantes cohorte C6: 127
+[2026-06-03 15:20:36]   Estudiantes aptos para transición 2027: 4
+[2026-06-03 15:20:36] 
+  Base de datos creada: dw_transicion_ebci.db
+[2026-06-03 15:20:36]   Tamaño: 344.0 KB
+[2026-06-03 15:20:36] ======================================================================
+[2026-06-03 15:20:36] FASE 4: GENERACIÓN DE EVIDENCIAS
+[2026-06-03 15:20:36] ======================================================================
+[2026-06-03 15:20:36]   Log de ejecución: etl_log_ejecucion.txt
+[2026-06-03 15:20:36]   Tabla de transformaciones: etl_resumen_transformaciones.csv
+[2026-06-03 15:20:36]   Evidencia de clasificación: etl_evidencia_clasificacion.csv
+[2026-06-03 15:20:36] 
+======================================================================
+[2026-06-03 15:20:36] ETL COMPLETADO EXITOSAMENTE
+[2026-06-03 15:20:36] Fin: 2026-06-03 15:20:36
+[2026-06-03 15:20:36] ======================================================================
