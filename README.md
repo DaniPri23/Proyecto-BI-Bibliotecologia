@@ -7,7 +7,13 @@ Escuela de Bibliotecología y Ciencias de la Información.
 Analizar la transición de estudiantes de los planes actuales hacia los nuevos planes de estudio 2027.
 
 ## Herramientas
-*****
+- draw.io
+- Python
+- Power BI
+- Excel
+- Word
+- Canva
+- SQLlite
 
 ## Estructura del repositorio
 - docs: documentación del proyecto
